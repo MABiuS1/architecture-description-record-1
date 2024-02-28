@@ -25,4 +25,4 @@ Learning Curve: Developers unfamiliar with RESTful principles may experience a l
 
 ## Sample code
 Give some sample code related to this decision.
-![image1.png](img/image1.png)
+![image 1.png](img/image 1.png)
