@@ -1,0 +1,17 @@
+# Flask example for a RESTful endpoint
+
+from flask import Flask, jsonify
+
+app = Flask(__name__)
+
+@app.route('/api/resource', methods=['GET'])
+def get_resource():
+    resource_data = {
+        'id': 1,
+        'name': 'Sample Resource',
+        'description': 'This is a sample resource'
+    }
+    return jsonify(resource_data)
+
+if __name__ == '__main__':
+    app.run(debug=True)
